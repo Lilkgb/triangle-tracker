@@ -12,7 +12,7 @@ $(document).ready(function() {
       $("#isosceles").show();
       $("#perfectTriangle").hide();
       $("#scalene").hide();
-    } else if(a) {
+    } else if(a !== b && b !== c && c !== a) {
       $("#scalene").show();
       $("#perfectTriangle").hide();
       $("#isosceles").hide();
