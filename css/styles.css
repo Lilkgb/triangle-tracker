@@ -1,0 +1,28 @@
+.btn {
+  margin-top: 50px
+}
+#perfectTriangle img {
+  height: 300px;
+}
+#perfectTriangle {
+  text-align: center;
+  display: none;
+}
+#isosceles img {
+  height: 300px;
+}
+#isosceles {
+  text-align: center;
+  display: none;
+}
+#scalene img {
+  height: 300px;
+}
+#scalene {
+  text-align: center;
+  display: none;
+}
+#notTriangle {
+  text-align: center;
+  display: none;
+}
