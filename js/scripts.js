@@ -8,16 +8,16 @@ $(document).ready(function() {
       $("#perfectTriangle").show();
       $("#isosceles").hide();
       $("#scalene").hide();
-    }
-    else if(a === b + c || b === c + a || c === a + b) {
+    } else if(a === b || b === c || c === a) {
       $("#isosceles").show();
       $("#perfectTriangle").hide();
       $("#scalene").hide();
-    }
-    else if() {
+    } else if(a) {
       $("#scalene").show();
       $("#perfectTriangle").hide();
       $("#isosceles").hide();
+    } else if((a + b) < c) {
+      $("#notTriangle").show();
     }
     else {
       console.log("error")
